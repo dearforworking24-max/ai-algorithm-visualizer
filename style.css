@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f9;
+}
+
+.header {
+    width: 100%;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.controls {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button, select {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* ส่วนของ Grid */
+#grid-container {
+    margin-top: 20px;
+    /* เราจะใช้ JS คำนวณจำนวนแถวและคอลัมน์แล้วใส่สไตล์ให้ที่หลัง */
+}
+
+.node {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #c2c2c2;
+    background-color: white;
+    display: inline-block;
+}
+
+/* สถานะต่างๆ ของแต่ละช่อง */
+.node.start {
+    background-color: #28a745; /* สีเขียว */
+}
+
+.node.end {
+    background-color: #dc3545; /* สีแดง */
+}
+
+.node.wall {
+    background-color: #343a40; /* สีดำ (กำแพง) */
+    border: 1px solid #343a40;
+}
+/* สีช่องที่อัลกอริทึมเข้าไปตรวจสอบแล้ว */
+.node.visited {
+    background-color: #17a2b8; /* สีฟ้า */
+    border: 1px solid #138496;
+    animation: pop 0.2s ease-in-out;
+}
+
+/* สีของเส้นทางที่สั้นที่สุดตอนหาเจอแล้ว */
+.node.path {
+    background-color: #ffc107; /* สีเหลือง */
+    border: 1px solid #d39e00;
+    animation: pop 0.2s ease-in-out;
+}
+
+/* ทำให้ดูมีมิติเด้งๆ เล็กน้อยตอนเปลี่ยนสี */
+@keyframes pop {
+    0% { transform: scale(0.8); }
+    100% { transform: scale(1); }
+}

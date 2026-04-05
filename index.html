@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Algorithm Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Algorithm Visualizer</h1>
+        <div class="controls">
+            <select id="algorithm-select">
+                <option value="astar">A* Search</option>
+                <option value="greedy">Greedy Best-First Search</option>
+            </select>
+            <button id="visualize-btn">Visualize!</button>
+            <button id="clear-board-btn">Clear Board</button>
+        </div>
+    </div>
+
+    <div id="grid-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
