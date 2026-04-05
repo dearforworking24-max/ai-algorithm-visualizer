@@ -30,4 +30,4 @@ This algorithm evaluates nodes based solely on their heuristic cost ($h(cost)$),
 ## 💻 How to Run Locally
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/YOUR-USERNAME/ai-algorithm-visualizer.git](https://github.com/YOUR-USERNAME/ai-algorithm-visualizer.git)
+   git clone [[https://github.com/YOUR-USERNAME/ai-algorithm-visualizer.git](https://github.com/YOUR-USERNAME/ai-algorithm-visualizer.git](https://dearforworking24-max.github.io/ai-algorithm-visualizer/))
