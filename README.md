@@ -5,8 +5,7 @@ A web-based interactive visualization tool that demonstrates how pathfinding alg
 This project was created to deepen my understanding of Data Structures and Artificial Intelligence search algorithms by translating theoretical concepts into interactive, visual web components.
 
 ## 🚀 Live Demo
-> **[Click here to view the Live Demo](https://YOUR-USERNAME.github.io/ai-algorithm-visualizer)** > *(Note: Replace the link above with your actual GitHub Pages link)*
-
+> **[Click here to view the Live Demo](https://dearforworking24-max.github.io/ai-algorithm-visualizer/)
 ## ✨ Features
 * **Interactive Grid:** Users can draw custom obstacles (walls) by clicking and dragging on the grid.
 * **Algorithm Selection:** Dynamically switch between different search algorithms to compare their behavior and efficiency.
